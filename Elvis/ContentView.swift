@@ -45,9 +45,10 @@ struct ContentView: View {
                     image = "lightbulb"
                 }
                     
-            }.foregroundStyle(.white)
-                .buttonStyle(.borderedProminent)
-                    .tint(.purple)
+            }
+            .foregroundStyle(.white)
+            .buttonStyle(.borderedProminent)
+            .tint(.purple)
                 
         }
         .padding()
